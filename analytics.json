@@ -1,0 +1,630 @@
+{
+  "total_bookings": 103024,
+  "success_bookings": 63967,
+  "success_rate": 62.09,
+  "canceled_by_customer": 10499,
+  "canceled_by_driver": 18434,
+  "driver_not_found": 10124,
+  "total_revenue": 35080467.0,
+  "avg_booking_value": 548.42,
+  "avg_ride_distance": 22.85,
+  "total_distance": 1461903,
+  "avg_driver_rating": 4.0,
+  "avg_customer_rating": 4.0,
+  "avg_v_tat": 170.88,
+  "avg_c_tat": 84.87,
+  "unique_customers": 94544,
+  "repeat_customers": 7954,
+  "repeat_rate": 8.41,
+  "incomplete_rides": 3926,
+  "by_vehicle": [
+    {
+      "Vehicle_Type": "Prime Sedan",
+      "bookings": 14877,
+      "revenue": 8298612,
+      "success": 9379,
+      "avg_value": 556.99,
+      "avg_dist": 25.01,
+      "avg_driver_rating": 3.99,
+      "avg_cust_rating": 4.0,
+      "success_rate": 63.04
+    },
+    {
+      "Vehicle_Type": "E-Bike",
+      "bookings": 14816,
+      "revenue": 8181523,
+      "success": 9180,
+      "avg_value": 550.62,
+      "avg_dist": 25.15,
+      "avg_driver_rating": 4.01,
+      "avg_cust_rating": 3.99,
+      "success_rate": 61.96
+    },
+    {
+      "Vehicle_Type": "Auto",
+      "bookings": 14755,
+      "revenue": 8092210,
+      "success": 9167,
+      "avg_value": 551.09,
+      "avg_dist": 10.04,
+      "avg_driver_rating": 4.0,
+      "avg_cust_rating": 4.0,
+      "success_rate": 62.13
+    },
+    {
+      "Vehicle_Type": "Prime Plus",
+      "bookings": 14707,
+      "revenue": 8050889,
+      "success": 9075,
+      "avg_value": 552.64,
+      "avg_dist": 25.03,
+      "avg_driver_rating": 4.0,
+      "avg_cust_rating": 4.01,
+      "success_rate": 61.71
+    },
+    {
+      "Vehicle_Type": "Mini",
+      "bookings": 14552,
+      "revenue": 7990996,
+      "success": 9036,
+      "avg_value": 540.72,
+      "avg_dist": 24.98,
+      "avg_driver_rating": 3.99,
+      "avg_cust_rating": 4.0,
+      "success_rate": 62.09
+    },
+    {
+      "Vehicle_Type": "Bike",
+      "bookings": 14662,
+      "revenue": 7987054,
+      "success": 9134,
+      "avg_value": 544.34,
+      "avg_dist": 24.93,
+      "avg_driver_rating": 3.98,
+      "avg_cust_rating": 3.99,
+      "success_rate": 62.3
+    },
+    {
+      "Vehicle_Type": "Prime SUV",
+      "bookings": 14655,
+      "revenue": 7933330,
+      "success": 8996,
+      "avg_value": 542.11,
+      "avg_dist": 24.88,
+      "avg_driver_rating": 4.01,
+      "avg_cust_rating": 4.0,
+      "success_rate": 61.39
+    }
+  ],
+  "by_payment": [
+    {
+      "Payment_Method": "Cash",
+      "rides": 35022,
+      "revenue": 19260316,
+      "avg_value": 549.95,
+      "share_pct": 54.75
+    },
+    {
+      "Payment_Method": "UPI",
+      "rides": 25881,
+      "revenue": 14168436,
+      "avg_value": 547.45,
+      "share_pct": 40.46
+    },
+    {
+      "Payment_Method": "Credit Card",
+      "rides": 2435,
+      "revenue": 1312793,
+      "avg_value": 539.13,
+      "share_pct": 3.81
+    },
+    {
+      "Payment_Method": "Debit Card",
+      "rides": 629,
+      "revenue": 338922,
+      "avg_value": 538.83,
+      "share_pct": 0.98
+    }
+  ],
+  "by_city_top10": [
+    {
+      "Pickup_Location": "RT Nagar",
+      "bookings": 2135,
+      "success": 1321,
+      "revenue": 777106,
+      "avg_value": 588.27,
+      "avg_dist": 22.85,
+      "success_rate": 61.87
+    },
+    {
+      "Pickup_Location": "Nagarbhavi",
+      "bookings": 2083,
+      "success": 1301,
+      "revenue": 773073,
+      "avg_value": 594.21,
+      "avg_dist": 22.76,
+      "success_rate": 62.46
+    },
+    {
+      "Pickup_Location": "Banashankari",
+      "bookings": 2201,
+      "success": 1365,
+      "revenue": 771628,
+      "avg_value": 565.3,
+      "avg_dist": 22.85,
+      "success_rate": 62.02
+    },
+    {
+      "Pickup_Location": "Yeshwanthpur",
+      "bookings": 2139,
+      "success": 1353,
+      "revenue": 748319,
+      "avg_value": 553.08,
+      "avg_dist": 23.08,
+      "success_rate": 63.25
+    },
+    {
+      "Pickup_Location": "Frazer Town",
+      "bookings": 2048,
+      "success": 1277,
+      "revenue": 738003,
+      "avg_value": 577.92,
+      "avg_dist": 23.07,
+      "success_rate": 62.35
+    },
+    {
+      "Pickup_Location": "Magadi Road",
+      "bookings": 2099,
+      "success": 1322,
+      "revenue": 734480,
+      "avg_value": 555.58,
+      "avg_dist": 22.6,
+      "success_rate": 62.98
+    },
+    {
+      "Pickup_Location": "Ramamurthy Nagar",
+      "bookings": 2116,
+      "success": 1338,
+      "revenue": 731591,
+      "avg_value": 546.78,
+      "avg_dist": 23.06,
+      "success_rate": 63.23
+    },
+    {
+      "Pickup_Location": "MG Road",
+      "bookings": 2048,
+      "success": 1299,
+      "revenue": 729119,
+      "avg_value": 561.29,
+      "avg_dist": 22.78,
+      "success_rate": 63.43
+    },
+    {
+      "Pickup_Location": "Basavanagudi",
+      "bookings": 2120,
+      "success": 1322,
+      "revenue": 728652,
+      "avg_value": 551.17,
+      "avg_dist": 22.65,
+      "success_rate": 62.36
+    },
+    {
+      "Pickup_Location": "BTM Layout",
+      "bookings": 2091,
+      "success": 1291,
+      "revenue": 721656,
+      "avg_value": 558.99,
+      "avg_dist": 22.6,
+      "success_rate": 61.74
+    }
+  ],
+  "by_city_bottom5": [
+    {
+      "Pickup_Location": "Padmanabhanagar",
+      "bookings": 2004,
+      "success": 1223,
+      "revenue": 664085,
+      "avg_value": 543.0,
+      "avg_dist": 22.66,
+      "success_rate": 61.03
+    },
+    {
+      "Pickup_Location": "Yelahanka",
+      "bookings": 2044,
+      "success": 1248,
+      "revenue": 663059,
+      "avg_value": 531.3,
+      "avg_dist": 22.07,
+      "success_rate": 61.06
+    },
+    {
+      "Pickup_Location": "Bannerghatta Road",
+      "bookings": 2046,
+      "success": 1251,
+      "revenue": 661576,
+      "avg_value": 528.84,
+      "avg_dist": 22.57,
+      "success_rate": 61.14
+    },
+    {
+      "Pickup_Location": "Langford Town",
+      "bookings": 2079,
+      "success": 1250,
+      "revenue": 656707,
+      "avg_value": 525.37,
+      "avg_dist": 23.04,
+      "success_rate": 60.13
+    },
+    {
+      "Pickup_Location": "Chickpet",
+      "bookings": 1994,
+      "success": 1233,
+      "revenue": 650851,
+      "avg_value": 527.86,
+      "avg_dist": 22.88,
+      "success_rate": 61.84
+    }
+  ],
+  "n_cities": 50,
+  "cancel_customer_reasons": {
+    "Driver is not moving towards pickup location": 3175,
+    "Driver asked to cancel": 2670,
+    "Change of plans": 2081,
+    "AC is Not working": 1568,
+    "Wrong Address": 1005
+  },
+  "cancel_driver_reasons": {
+    "Personal & Car related issue": 6542,
+    "Customer related issue": 5413,
+    "Customer was coughing/sick": 3654,
+    "More than permitted people in there": 2825
+  },
+  "incomplete_reasons": {
+    "Customer Demand": 1601,
+    "Vehicle Breakdown": 1591,
+    "Other Issue": 734
+  },
+  "daily": [
+    {
+      "Booking_Date": "2024-07-01",
+      "bookings": 3351,
+      "revenue": 1151594
+    },
+    {
+      "Booking_Date": "2024-07-02",
+      "bookings": 3388,
+      "revenue": 1186207
+    },
+    {
+      "Booking_Date": "2024-07-03",
+      "bookings": 3358,
+      "revenue": 1168263
+    },
+    {
+      "Booking_Date": "2024-07-04",
+      "bookings": 3274,
+      "revenue": 1139242
+    },
+    {
+      "Booking_Date": "2024-07-05",
+      "bookings": 3306,
+      "revenue": 1112053
+    },
+    {
+      "Booking_Date": "2024-07-06",
+      "bookings": 3281,
+      "revenue": 1150749
+    },
+    {
+      "Booking_Date": "2024-07-07",
+      "bookings": 3223,
+      "revenue": 1090623
+    },
+    {
+      "Booking_Date": "2024-07-08",
+      "bookings": 3313,
+      "revenue": 1126624
+    },
+    {
+      "Booking_Date": "2024-07-09",
+      "bookings": 3358,
+      "revenue": 1119766
+    },
+    {
+      "Booking_Date": "2024-07-10",
+      "bookings": 3375,
+      "revenue": 1143873
+    },
+    {
+      "Booking_Date": "2024-07-11",
+      "bookings": 3242,
+      "revenue": 1100361
+    },
+    {
+      "Booking_Date": "2024-07-12",
+      "bookings": 3382,
+      "revenue": 1099772
+    },
+    {
+      "Booking_Date": "2024-07-13",
+      "bookings": 3409,
+      "revenue": 1117776
+    },
+    {
+      "Booking_Date": "2024-07-14",
+      "bookings": 3307,
+      "revenue": 1076114
+    },
+    {
+      "Booking_Date": "2024-07-15",
+      "bookings": 3318,
+      "revenue": 1162968
+    },
+    {
+      "Booking_Date": "2024-07-16",
+      "bookings": 3371,
+      "revenue": 1141627
+    },
+    {
+      "Booking_Date": "2024-07-17",
+      "bookings": 3343,
+      "revenue": 1131233
+    },
+    {
+      "Booking_Date": "2024-07-18",
+      "bookings": 3359,
+      "revenue": 1170555
+    },
+    {
+      "Booking_Date": "2024-07-19",
+      "bookings": 3319,
+      "revenue": 1119793
+    },
+    {
+      "Booking_Date": "2024-07-20",
+      "bookings": 3289,
+      "revenue": 1121535
+    },
+    {
+      "Booking_Date": "2024-07-21",
+      "bookings": 3237,
+      "revenue": 1069334
+    },
+    {
+      "Booking_Date": "2024-07-22",
+      "bookings": 3377,
+      "revenue": 1141154
+    },
+    {
+      "Booking_Date": "2024-07-23",
+      "bookings": 3377,
+      "revenue": 1121815
+    },
+    {
+      "Booking_Date": "2024-07-24",
+      "bookings": 3286,
+      "revenue": 1097279
+    },
+    {
+      "Booking_Date": "2024-07-25",
+      "bookings": 3361,
+      "revenue": 1185893
+    },
+    {
+      "Booking_Date": "2024-07-26",
+      "bookings": 3338,
+      "revenue": 1155845
+    },
+    {
+      "Booking_Date": "2024-07-27",
+      "bookings": 3362,
+      "revenue": 1174905
+    },
+    {
+      "Booking_Date": "2024-07-28",
+      "bookings": 3246,
+      "revenue": 1087175
+    },
+    {
+      "Booking_Date": "2024-07-29",
+      "bookings": 3370,
+      "revenue": 1164478
+    },
+    {
+      "Booking_Date": "2024-07-30",
+      "bookings": 3432,
+      "revenue": 1184192
+    },
+    {
+      "Booking_Date": "2024-07-31",
+      "bookings": 3072,
+      "revenue": 1067669
+    }
+  ],
+  "hourly": [
+    {
+      "Booking_Hour": 0,
+      "bookings": 4318
+    },
+    {
+      "Booking_Hour": 1,
+      "bookings": 4329
+    },
+    {
+      "Booking_Hour": 2,
+      "bookings": 4305
+    },
+    {
+      "Booking_Hour": 3,
+      "bookings": 4201
+    },
+    {
+      "Booking_Hour": 4,
+      "bookings": 4263
+    },
+    {
+      "Booking_Hour": 5,
+      "bookings": 4264
+    },
+    {
+      "Booking_Hour": 6,
+      "bookings": 4271
+    },
+    {
+      "Booking_Hour": 7,
+      "bookings": 4304
+    },
+    {
+      "Booking_Hour": 8,
+      "bookings": 4374
+    },
+    {
+      "Booking_Hour": 9,
+      "bookings": 4347
+    },
+    {
+      "Booking_Hour": 10,
+      "bookings": 4334
+    },
+    {
+      "Booking_Hour": 11,
+      "bookings": 4272
+    },
+    {
+      "Booking_Hour": 12,
+      "bookings": 4408
+    },
+    {
+      "Booking_Hour": 13,
+      "bookings": 4285
+    },
+    {
+      "Booking_Hour": 14,
+      "bookings": 4232
+    },
+    {
+      "Booking_Hour": 15,
+      "bookings": 4376
+    },
+    {
+      "Booking_Hour": 16,
+      "bookings": 4261
+    },
+    {
+      "Booking_Hour": 17,
+      "bookings": 4353
+    },
+    {
+      "Booking_Hour": 18,
+      "bookings": 4176
+    },
+    {
+      "Booking_Hour": 19,
+      "bookings": 4271
+    },
+    {
+      "Booking_Hour": 20,
+      "bookings": 4228
+    },
+    {
+      "Booking_Hour": 21,
+      "bookings": 4343
+    },
+    {
+      "Booking_Hour": 22,
+      "bookings": 4283
+    },
+    {
+      "Booking_Hour": 23,
+      "bookings": 4226
+    }
+  ],
+  "by_dow": [
+    {
+      "Booking_DayOfWeek": "Monday",
+      "bookings": 16729
+    },
+    {
+      "Booking_DayOfWeek": "Tuesday",
+      "bookings": 16926
+    },
+    {
+      "Booking_DayOfWeek": "Wednesday",
+      "bookings": 16434
+    },
+    {
+      "Booking_DayOfWeek": "Thursday",
+      "bookings": 13236
+    },
+    {
+      "Booking_DayOfWeek": "Friday",
+      "bookings": 13345
+    },
+    {
+      "Booking_DayOfWeek": "Saturday",
+      "bookings": 13341
+    },
+    {
+      "Booking_DayOfWeek": "Sunday",
+      "bookings": 13013
+    }
+  ],
+  "status_dist": {
+    "Success": 63967,
+    "Canceled by Driver": 18434,
+    "Canceled by Customer": 10499,
+    "Driver Not Found": 10124
+  },
+  "top_routes": [
+    {
+      "Pickup_Location": "Majestic",
+      "Drop_Location": "Hennur",
+      "rides": 67
+    },
+    {
+      "Pickup_Location": "Sahakar Nagar",
+      "Drop_Location": "Yeshwanthpur",
+      "rides": 62
+    },
+    {
+      "Pickup_Location": "Ramamurthy Nagar",
+      "Drop_Location": "Frazer Town",
+      "rides": 62
+    },
+    {
+      "Pickup_Location": "Kammanahalli",
+      "Drop_Location": "Kadugodi",
+      "rides": 61
+    },
+    {
+      "Pickup_Location": "Magadi Road",
+      "Drop_Location": "Vijayanagar",
+      "rides": 60
+    },
+    {
+      "Pickup_Location": "Bellandur",
+      "Drop_Location": "Indiranagar",
+      "rides": 60
+    },
+    {
+      "Pickup_Location": "Hulimavu",
+      "Drop_Location": "Banashankari",
+      "rides": 60
+    },
+    {
+      "Pickup_Location": "Nagarbhavi",
+      "Drop_Location": "Nagarbhavi",
+      "rides": 60
+    },
+    {
+      "Pickup_Location": "Vijayanagar",
+      "Drop_Location": "RT Nagar",
+      "rides": 59
+    },
+    {
+      "Pickup_Location": "Magadi Road",
+      "Drop_Location": "Electronic City",
+      "rides": 59
+    }
+  ]
+}

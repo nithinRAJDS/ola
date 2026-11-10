@@ -1,0 +1,7 @@
+streamlit>=1.32
+pandas>=2.0
+plotly>=5.20
+openpyxl>=3.1
+# Optional — only needed for the LLM translation engine:
+# openai>=1.30
+# anthropic>=0.34

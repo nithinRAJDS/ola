@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>OLA Rides Analytics — July 2024 - Slide 3</title>
+    <!-- Google Fonts - Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+        body {
+            height: 1080px;
+            width: 1920px;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:1920px;height:1080px;box-sizing:border-box;background:#082836;position:relative;overflow:hidden;font-family:Poppins,Arial,sans-serif;padding:60px 80px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;">
+    <div style="color:#ffffff;font-size:56px;font-weight:800;">Data Cleaning &amp; Quality</div>
+    <img src="images/ola_logo.png" style="width:150px;">
+  </div>
+  <div style="width:100%;height:4px;background:#92D050;margin-top:22px;"></div>
+
+  <div style="display:flex;gap:50px;margin-top:50px;">
+    <div style="flex:1.15;">
+      <div style="color:#92D050;font-size:30px;font-weight:700;margin-bottom:22px;">Cleaning steps applied</div>
+      <div style="color:#ffffff;font-size:27px;line-height:1.75;">
+        <div>✅ Parsed <b>Date + Time → Booking_Datetime</b>; derived hour, day-of-week, weekend flag</div>
+        <div>✅ Trimmed whitespace on all categorical text</div>
+        <div>✅ Normalised <b>eBike → E-Bike</b> (template label)</div>
+        <div>✅ Filled <b>Incomplete_Rides</b> blanks → "No"</div>
+        <div>✅ <b>Payment_Method</b> &amp; cancel reasons → "Not Applicable"</div>
+        <div>✅ Kept TAT / ratings <b>NULL</b> for non-success (no fake imputation)</div>
+        <div>✅ IQR outlier flags on Booking_Value (8,468) + zero-distance flag (39,057)</div>
+        <div>✅ De-duplicated on Booking_ID (0 removed)</div>
+      </div>
+    </div>
+    <div style="flex:0.85;">
+      <img src="images/chart_quality.png" style="width:100%;border-radius:14px;">
+      <div style="background:#0b3242;border-radius:14px;padding:26px 30px;margin-top:26px;">
+        <div style="color:#92D050;font-size:26px;font-weight:700;">Scorecard</div>
+        <div style="color:#ffffff;font-size:26px;line-height:1.6;margin-top:12px;">
+          Completeness <b>75.2% → 94.8%</b><br>
+          Duplicates <b>0</b> · Unparseable dates <b>0</b><br>
+          Rows retained <b>103,024 (100%)</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "presentation_name": "ola_rides_analytics",
+  "title": "OLA Rides Analytics \u2014 July 2024",
+  "description": "",
+  "slides": {
+    "2": {
+      "title": "Dataset Overview",
+      "filename": "slide_02.html",
+      "file_path": "presentations/ola_rides_analytics/slide_02.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_02.html",
+      "created_at": "2026-11-09T09:01:45.920143"
+    },
+    "1": {
+      "title": "Title",
+      "filename": "slide_01.html",
+      "file_path": "presentations/ola_rides_analytics/slide_01.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_01.html",
+      "created_at": "2026-11-09T09:01:46.790126"
+    },
+    "3": {
+      "title": "Data Cleaning and Quality",
+      "filename": "slide_03.html",
+      "file_path": "presentations/ola_rides_analytics/slide_03.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_03.html",
+      "created_at": "2026-11-09T09:02:04.339553"
+    },
+    "4": {
+      "title": "Key KPIs",
+      "filename": "slide_04.html",
+      "file_path": "presentations/ola_rides_analytics/slide_04.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_04.html",
+      "created_at": "2026-11-09T09:02:05.129168"
+    },
+    "5": {
+      "title": "Insights by City",
+      "filename": "slide_05.html",
+      "file_path": "presentations/ola_rides_analytics/slide_05.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_05.html",
+      "created_at": "2026-11-09T09:02:05.813869"
+    },
+    "7": {
+      "title": "Insights by Payment",
+      "filename": "slide_07.html",
+      "file_path": "presentations/ola_rides_analytics/slide_07.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_07.html",
+      "created_at": "2026-11-09T09:02:06.475486"
+    },
+    "6": {
+      "title": "Insights by Vehicle",
+      "filename": "slide_06.html",
+      "file_path": "presentations/ola_rides_analytics/slide_06.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_06.html",
+      "created_at": "2026-11-09T09:02:07.196515"
+    },
+    "8": {
+      "title": "Trends Over Time",
+      "filename": "slide_08.html",
+      "file_path": "presentations/ola_rides_analytics/slide_08.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_08.html",
+      "created_at": "2026-11-09T09:02:24.046081"
+    },
+    "9": {
+      "title": "Streamlit App",
+      "filename": "slide_09.html",
+      "file_path": "presentations/ola_rides_analytics/slide_09.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_09.html",
+      "created_at": "2026-11-09T09:02:24.724306"
+    },
+    "10": {
+      "title": "Power BI Dashboard",
+      "filename": "slide_10.html",
+      "file_path": "presentations/ola_rides_analytics/slide_10.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_10.html",
+      "created_at": "2026-11-09T09:02:25.483683"
+    },
+    "11": {
+      "title": "Recommendations",
+      "filename": "slide_11.html",
+      "file_path": "presentations/ola_rides_analytics/slide_11.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_11.html",
+      "created_at": "2026-11-09T09:02:26.325213"
+    },
+    "12": {
+      "title": "Thank You",
+      "filename": "slide_12.html",
+      "file_path": "presentations/ola_rides_analytics/slide_12.html",
+      "preview_url": "/workspace/presentations/ola_rides_analytics/slide_12.html",
+      "created_at": "2026-11-09T09:02:27.154344"
+    }
+  },
+  "created_at": "2026-11-09T09:01:45.762156",
+  "updated_at": "2026-11-09T09:02:27.154359"
+}

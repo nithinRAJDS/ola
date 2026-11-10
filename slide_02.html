@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>OLA Rides Analytics — July 2024 - Slide 2</title>
+    <!-- Google Fonts - Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+        body {
+            height: 1080px;
+            width: 1920px;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:1920px;height:1080px;box-sizing:border-box;background:#082836;position:relative;overflow:hidden;font-family:Poppins,Arial,sans-serif;padding:60px 80px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;">
+    <div style="color:#ffffff;font-size:56px;font-weight:800;">Dataset Overview</div>
+    <img src="images/ola_logo.png" style="width:150px;">
+  </div>
+  <div style="width:100%;height:4px;background:#92D050;margin-top:22px;"></div>
+
+  <div style="display:flex;gap:40px;margin-top:60px;">
+    <div style="flex:1;background:#0b3242;border-radius:16px;padding:40px;border-left:6px solid #92D050;">
+      <div style="color:#92D050;font-size:30px;font-weight:700;">📦 Source</div>
+      <div style="color:#ffffff;font-size:32px;margin-top:20px;line-height:1.6;">
+        <b>OLA_DataSet.xlsx</b><br>Sheet <b>July</b> — one row per booking<br>Period: <b>1–31 July 2024</b><br>City: <b>Bengaluru</b>
+      </div>
+    </div>
+    <div style="flex:1;background:#0b3242;border-radius:16px;padding:40px;border-left:6px solid #058DC7;">
+      <div style="color:#058DC7;font-size:30px;font-weight:700;">📊 Scale</div>
+      <div style="color:#ffffff;font-size:32px;margin-top:20px;line-height:1.6;">
+        <b>103,024</b> bookings<br><b>20</b> raw columns → <b>29</b> cleaned<br><b>94,544</b> unique customers<br><b>50</b> pickup areas
+      </div>
+    </div>
+    <div style="flex:1;background:#0b3242;border-radius:16px;padding:40px;border-left:6px solid #ED561B;">
+      <div style="color:#ED561B;font-size:30px;font-weight:700;">🚗 Dimensions</div>
+      <div style="color:#ffffff;font-size:32px;margin-top:20px;line-height:1.6;">
+        7 vehicle types<br>4 booking statuses<br>4 payment methods<br>50 × 50 route pairs
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:56px;background:#0b3242;border-radius:16px;padding:36px 44px;">
+    <div style="color:#92D050;font-size:28px;font-weight:700;margin-bottom:18px;">Key fields</div>
+    <div style="color:#ffffff;font-size:28px;line-height:1.7;">
+      Booking_ID · Booking_Datetime · Booking_Status · Customer_ID · Vehicle_Type · Pickup_Location · Drop_Location · Ride_Distance · Booking_Value · Payment_Method · V_TAT · C_TAT · Driver_Ratings · Customer_Rating · cancellation &amp; incomplete reasons
+    </div>
+  </div>
+</div>
+</body>
+</html>

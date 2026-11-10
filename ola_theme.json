@@ -1,0 +1,116 @@
+{
+  "name": "OLA Rides — Ola Slides Palette",
+  "dataColors": [
+    "#92D050",
+    "#058DC7",
+    "#082836",
+    "#ED561B",
+    "#50B432",
+    "#24CBE5",
+    "#EDEF00",
+    "#64E572",
+    "#AEAEAE",
+    "#747474"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#082836",
+  "tableAccent": "#92D050",
+  "good": "#50B432",
+  "neutral": "#EDEF00",
+  "bad": "#ED561B",
+  "maximum": "#92D050",
+  "minimum": "#ED561B",
+  "textClasses": {
+    "title": { "fontFace": "Poppins", "fontSize": 16, "color": "#082836" },
+    "header": { "fontFace": "Poppins", "fontSize": 12, "color": "#082836" },
+    "label": { "fontFace": "Poppins", "fontSize": 10, "color": "#3A3A3A" },
+    "callout": { "fontFace": "Poppins", "fontSize": 40, "color": "#082836" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E3E3E3" } }, "radius": 8 }],
+        "visualHeader": [{ "show": true, "foreground": { "solid": { "color": "#082836" } } }],
+        "title": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#082836" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "fontFamily": "Poppins",
+          "fontSize": 13,
+          "alignment": "left"
+        }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F3F3F3" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F3F3F3" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#082836" } }, "fontSize": 32, "fontFamily": "Poppins" }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#747474" } }, "fontSize": 11 }]
+      }
+    },
+    "kpi": {
+      "*": {
+        "indicator": [{ "color": { "solid": { "color": "#92D050" } } }],
+        "trendline": [{ "color": { "solid": { "color": "#058DC7" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [{ "show": true, "fontColor": { "solid": { "color": "#082836" } }, "fontFamily": "Poppins" }],
+        "items": [{ "fontColor": { "solid": { "color": "#3A3A3A" } }, "background": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{ "gridVertical": true, "gridVerticalColor": { "solid": { "color": "#EDEDED" } }, "gridHorizontal": true, "gridHorizontalColor": { "solid": { "color": "#EDEDED" } }, "rowPadding": 4 }],
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#082836" } }, "fontFamily": "Poppins" }],
+        "values": [{ "fontColor": { "solid": { "color": "#3A3A3A" } }, "backColor": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#F7F9F7" } } }]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#082836" } } }],
+        "rowHeaders": [{ "fontColor": { "solid": { "color": "#082836" } } }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{ "fill": { "solid": { "color": "#92D050" } } }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#3A3A3A" } }, "showAxisTitle": true, "titleColor": { "solid": { "color": "#082836" } } }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#3A3A3A" } }, "gridlineColor": { "solid": { "color": "#EDEDED" } } }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [{ "fill": { "solid": { "color": "#92D050" } } }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{ "fill": { "solid": { "color": "#058DC7" } } }],
+        "lineStyles": [{ "strokeWidth": 3 }]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "dataPoint": [{ "fill": { "solid": { "color": "#92D050" } } }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "dataPoint": [{ "fill": { "solid": { "color": "#92D050" } } }]
+      }
+    },
+    "map": {
+      "*": {
+        "dataPoint": [{ "fill": { "solid": { "color": "#92D050" } } }]
+      }
+    }
+  }
+}

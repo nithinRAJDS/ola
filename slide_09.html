@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>OLA Rides Analytics — July 2024 - Slide 9</title>
+    <!-- Google Fonts - Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+        body {
+            height: 1080px;
+            width: 1920px;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="width:1920px;height:1080px;box-sizing:border-box;background:#082836;position:relative;overflow:hidden;font-family:Poppins,Arial,sans-serif;padding:60px 80px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;">
+    <div style="color:#ffffff;font-size:56px;font-weight:800;">Streamlit App — Ask the Data</div>
+    <img src="images/ola_logo.png" style="width:150px;">
+  </div>
+  <div style="width:100%;height:4px;background:#92D050;margin-top:22px;"></div>
+
+  <div style="display:flex;gap:50px;margin-top:50px;">
+    <div style="flex:1.05;">
+      <div style="background:#0b3242;border-radius:16px;padding:34px 38px;">
+        <div style="color:#92D050;font-size:30px;font-weight:700;margin-bottom:16px;">💬 Natural-language Q&amp;A over SQL</div>
+        <div style="color:#ffffff;font-size:27px;line-height:1.7;">
+          • Type a question in plain English<br>
+          • Auto-translated to SQL against the cleaned SQLite DB<br>
+          • Shows the <b>generated SQL</b>, the <b>result table</b> and an <b>auto-selected chart</b><br>
+          • Example question buttons for one-click answers
+        </div>
+      </div>
+      <div style="background:#0b3242;border-radius:16px;padding:30px 38px;margin-top:26px;">
+        <div style="color:#058DC7;font-size:28px;font-weight:700;">🧠 Two translation engines</div>
+        <div style="color:#ffffff;font-size:26px;line-height:1.6;margin-top:10px;">
+          <b>LLM engine</b> (if API key set) + a robust <b>rule-based mapper</b> covering totals, averages, counts, group-bys (date/city/vehicle/payment), top-N and trends.
+        </div>
+      </div>
+    </div>
+    <div style="flex:0.95;">
+      <div style="background:#0b3242;border-radius:16px;padding:34px 38px;">
+        <div style="color:#92D050;font-size:30px;font-weight:700;margin-bottom:16px;">📑 Three tabs</div>
+        <div style="color:#ffffff;font-size:27px;line-height:1.7;">
+          <b>1. Ask the Data</b> — NL → SQL Q&amp;A<br>
+          <b>2. Data Explorer</b> — filters + quick charts<br>
+          <b>3. Data Quality</b> — scorecard, missingness, outliers
+        </div>
+      </div>
+      <div style="background:#0b3242;border-radius:16px;padding:30px 38px;margin-top:26px;">
+        <div style="color:#058DC7;font-size:28px;font-weight:700;">📦 Deliverables</div>
+        <div style="color:#ffffff;font-size:26px;line-height:1.6;margin-top:10px;">
+          <code style="color:#92D050;">app.py</code> · <code style="color:#92D050;">nl2sql.py</code> · <code style="color:#92D050;">build_db.py</code> · <code style="color:#92D050;">requirements.txt</code> · run instructions
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
